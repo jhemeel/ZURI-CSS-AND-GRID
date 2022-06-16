@@ -15,6 +15,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+header{
+    padding: 5px 10px;
+    background-color:  hsl(179, 100%, 13%);
+    color:   hsl(0, 0%, 95%);
+}
+a{
+    color:  hsl(0, 0%, 95%);
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+}
 .flex-container {
     display: flex;
     justify-content: center;
@@ -27,7 +37,7 @@ body {
     height: 75vh;
     width: 20vw;
     padding: 2em;
-    /* overflow: hidden; */
+
 }
 .box-1 {
     background-color: hsl(31, 77%, 52%);
@@ -50,7 +60,6 @@ body {
 }
 .paragraph {
     font-family: "Lexend Deca", sans-serif;
-    /* line-height: 1.6; */
     color: hsla(0, 0%, 100%, 0.75);
     height: 150px;
     margin-bottom: 30px;
@@ -79,7 +88,7 @@ body {
     border: 1px solid hsl(0, 0%, 95%);
 }
 
-@media screen and(max-width: 855px) and(min-width: 720px) {
+@media screen and (max-width: 855px) and (min-width: 720px) {
     body {
         max-width: 800px;
         font-size: 14px;
@@ -90,7 +99,7 @@ body {
         padding: 1vh 1vw;
     }
 }
-@media screen and(max-width:720px) and(min-width: 375px) {
+@media screen and (max-width:720px) and (min-width: 375px) {
     html {
         font-size: 9px;
     }
@@ -107,7 +116,7 @@ body {
     }
 
 }
-@media screen and(max-width: 375px) {
+@media screen and (max-width: 375px) {
     * {
         box-sizing: border-box;
     }
